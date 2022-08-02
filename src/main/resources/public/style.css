@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: yellow;
+    height: 100%;
+}
+
+table {
+    background-color: black;
+    color: yellow;
+    margin: auto;
+}
+
+table td {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+ }
+
+ .naglowek {
+    color: orange;
+ }
+
+ div {
+    min-height: 800px;
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
+    float: left;
+    width: 33%;
+    text-align: center;
+ }
+
+ h2 {
+    background-color: black;
+    color: orange;
+ }
+
+#stanMagazyn {
+    width: 100%;
+}
+
+#lastOperation1 {
+    color: green;
+}
+
+#lastOperation2 {
+    color: green;
+}

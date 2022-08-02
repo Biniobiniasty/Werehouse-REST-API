@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Werehouse</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <script src="dodaj.js"></script>
+    <script src="update.js"></script>
+    <script src="wydaj.js"></script>
+</head>
+<body onLoad="zaladuj_tabele();">
+
+
+
+<div id="Magazyn">
+    <h2>Goods issue</h2>
+        Product id:<br />
+        <input type="text" id="productIdSell" /><br />
+        Amount:<br />
+        <input type="text" id="productAmount2"/><br /><br />
+        <input type="submit" value="Execute" onClick="wydajProdukt();"/><br /><br />
+    <hr />
+    <h2>The result of the last operation:</h2>
+    <p id="lastOperation1">......</p>
+    <hr />
+</div>
+
+<div id="StanMagazynu">
+    <h2>Werehouse</h2>
+    <button onClick="zaladuj_tabele();" >Refresh</button><br />
+    <br />
+    <hr /><br />
+    <div id="stanMagazyn"><table><tr><td>Id.</td><td>Product name</td><td>Amount</td><td>Last date</td><td>Creation date</td></tr></table></div>
+    <hr />
+</div>
+
+
+
+<div id="Dostawa">
+    <h2>Delivery</h2>
+        Product id:<br />
+        <input type="text" id="productId"/><br />
+        Amount:<br />
+        <input type="text" id="productAmount"/><br /><br />
+        <input type="submit" value="Add" onClick="aktualizujeProdukt();"/><br /><br />
+    <hr />
+    <h2>New product</h2>
+        Product name:<br />
+        <input type="text" id="productName"/><br />
+        Amount:<br />
+        <input type="text" id="productAmountnew"/><br /><br />
+        <input type="submit" value="Create" onClick="dodajProdukt();"/><br /><br />
+    <hr />
+    <h2>The result of the last operation:</h2>
+    <p id="lastOperation2">......</p>
+    <hr />
+</div>
+
+</body>
+</html>
