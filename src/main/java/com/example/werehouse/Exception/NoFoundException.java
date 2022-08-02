@@ -1,4 +1,4 @@
-package com.example.demoTDO.Exception;
+package com.example.werehouse.Exception;
 
 public class NoFoundException extends RuntimeException{
 

@@ -1,4 +1,4 @@
-package com.example.demoTDO;
+package com.example.werehouse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

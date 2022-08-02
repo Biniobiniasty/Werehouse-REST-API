@@ -1,6 +1,5 @@
-package com.example.demoTDO;
+package com.example.werehouse;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

@@ -1,4 +1,4 @@
-package com.example.demoTDO;
+package com.example.werehouse;
 
 public class ProductDTOView {
 

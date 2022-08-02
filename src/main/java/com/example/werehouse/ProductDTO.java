@@ -1,4 +1,4 @@
-package com.example.demoTDO;
+package com.example.werehouse;
 
 import com.fasterxml.jackson.annotation.JsonView;
 import lombok.AllArgsConstructor;

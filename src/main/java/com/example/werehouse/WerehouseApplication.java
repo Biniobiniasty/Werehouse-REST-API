@@ -1,4 +1,4 @@
-package com.example.demoTDO;
+package com.example.werehouse;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
